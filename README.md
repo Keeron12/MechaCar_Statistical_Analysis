@@ -7,3 +7,9 @@
 - The p-value 5.35e-11 is significantly smaller that the assumed significance level of .05. Therefor, there is sufficient evidence to reject our null hypothesis, which means the slop of our linear model is not zero 
 -The R-squared value is .7149 which means there is a strong correlation, so the linear model helps predict the mpg of MechaCar prototypes
 
+## Summary Statistics on Suspension Coils
+
+![Image of lot_summary table]lot_summary.png
+![Image of total_summary table]total_summary.png
+
+The current manufacturing data does meet the design specification for all the manufacturing lots based on the total_summary table. Individually lots 1 and 2 meet the design specs when looking at the lot_summary table. Lot 3 has a variance exceeding the design specs by 70 psi. Lots 1 and 2 variance are 1 and 7 psi respectively, so they fall well below the design specs of not exceeding 100s psi.
